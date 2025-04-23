@@ -199,13 +199,3 @@ channel.ack(msg)
 | Deduplication   | Built-in (FIFO only)   | Manual                       |
 | Scaling         | Easy (AWS handles it)  | You scale broker + consumers |
 | Message Removal | Call `deleteMessage()` | Call `ack()`                 |
-
----
-
-## Visual Summary
-
-![Push vs Pull Diagram](assets/push-vs-pull-diagram.png)
-
-![Queue vs PubSub](assets/queue-vs-pubsub.png)
-
----
